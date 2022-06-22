@@ -34,11 +34,9 @@ var player0 = new Board({
 var flag = 1;
 function StartGame() {
     if (flag == 1) {
-        mydiv1.innerHTML = "x";
         return flag = 0;
     }
     else {
-        mydiv1.innerHTML = "0";
         return flag = 1;
     }
 }
